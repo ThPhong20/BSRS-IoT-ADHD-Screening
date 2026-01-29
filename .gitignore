@@ -1,0 +1,32 @@
+# Hệ điều hành
+.DS_Store
+Thumbs.db
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+
+# PlatformIO / Arduino builds
+.pio/
+firmware/.pio/
+*.elf
+*.bin
+*.hex
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+ai-model/venv/
+
+# Flutter builds
+mobile-app/build/
+mobile-app/.dart_tool/
+mobile-app/.flutter-plugins
+mobile-app/.flutter-plugins-dependencies
+mobile-app/.pub-cache/
+
+# Dữ liệu lớn (tránh đẩy dataset nặng)
+ai-model/datasets/raw/*.csv
